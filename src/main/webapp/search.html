@@ -1,0 +1,83 @@
+<html lang="">
+<head>
+    <title>Buscador</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="cabecera">
+    <br>
+    <table>
+        <tr>
+            <td>
+                <a class="button">Foros de usuarios</a>
+            </td>
+
+            <td>
+                <a class="button" href="search.html">Datos de escuelas</a>
+            </td>
+
+            <td>
+                <a class="button" href="">Examen de aptitud</a>
+            </td>
+
+            <td>
+                <a href="session.jsp">Sesión</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="cuerpo2">
+    <p class="txt3">Buscador</p>
+    <div style="text-align: center">
+        <label>
+            <input name="usuario" placeholder="" size="160" type="text">
+        </label>
+        <table class="tabla2">
+            <tr>
+                <td>ANUIES</td>
+                <td>Red de universidades Anáhuac</td>
+                <td class="button">
+                    <form action="Display" method="post">
+                        <input name="Historial" type="submit" value="VALORES ANAHUAC">
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td>SEP</td>
+                <td>Tecnológico de Monterrey</td>
+                <td class="button">
+                    <form action="Display" method="post">
+                        <input name="Historial" type="submit" value="VALORES TDM">
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td>UVM</td>
+                <td>Universidad del Valle de México</td>
+                <td class="button">
+                    <form action="Display" method="post">
+                        <input name="Historial" type="submit" value="VALORES UVM">
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td>UNAM</td>
+                <td>Universidad Nacional Autónoma de México</td>
+                <td class="button">
+                    <form action="Display" method="post">
+                        <input name="Historial" type="submit" value="VALORES UNAM">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+</div>
+</body>
+
+</html>

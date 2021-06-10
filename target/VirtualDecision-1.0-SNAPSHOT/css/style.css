@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+}
+
+#header {
+    background-color: white;
+    height: 64px;
+}
+
+#body2 {
+    border: #00ff73 15px solid;
+    background-color: white;
+    padding: 5px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00c4ff;
+    border-radius: 6px;
+    width: 33%;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}
+
+.table {
+    background-color: white;
+    padding: 10px;
+    width: 97%;
+    height: 95%;
+    text-align: center;
+}
+
+.table2 {
+
+    text-align: center;
+    width: 89%;
+    height: 85%;
+}
+
+.txt1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.txt2 {
+    font-style: italic;
+    color: grey;
+    font-size: 20px;
+    text-align: right;
+}
+
+.txtg {
+    font-size: 25px;
+}
+
+.buttonI {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00BFFF;
+    border-radius: 6px;
+}
+
+.buttonI:hover {
+    color: black;
+    background-color: #E0FFFF;
+}
+
+.buttonG {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00BFFF;
+    border-radius: 6px;
+}
+
+.buttonG:hover {
+    color: black;
+    background-color: #E0FFFF;
+}
+
+.txt3 {
+    font-size: 30px;
+}
+
+
+#txt {
+    background-color: white;
+    font-size: 30px;
+}
+
+#container {
+    padding: 5px;
+}
+
+#block {
+    display: inline;
+    background-color: #FDD57A;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 5px;
+}
+
+div {
+    text-align: center;
+}

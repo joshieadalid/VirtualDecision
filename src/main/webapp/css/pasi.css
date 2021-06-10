@@ -1,0 +1,512 @@
+body{
+    background-color: lightgreen;
+}
+
+h2{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 60px;
+    color: forestgreen;
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1{
+
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+label{
+    margin-left: 22%;
+    color: forestgreen;
+    font-size: 20px;
+    text-align: left;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+p{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border-radius: 25px;
+    background-color: honeydew;
+    padding:1px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+fieldset{
+    text-align: center;
+    width: 30%;
+    padding: 18px 22px;
+    margin-left: 25%;
+    margin-top: 3%;
+    background-color: mintcream;
+    border-radius: 25px;
+    border: 2px solid green;
+    color: green;
+}
+
+legend{
+    margin-left: 22%;
+    color: forestgreen;
+    font-size: 20px;
+    text-align: left;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#cabecera{
+    background-color: lightgreen;
+    height: 64px;
+}
+
+#cuerpo{
+    border-radius: 25px;
+    background-color: seagreen;
+}
+
+#cuerpo1{
+    border-radius: 25px;
+    background-color: turquoise;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type=text] {
+    margin-left: 3%;
+    width: 40%;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    background-color: mintcream;
+    border-radius: 25px;
+    border: 2px solid green;
+    color: green;
+}
+
+input[type=date] {
+    text-align: center;
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background-color: honeydew;
+    border-radius: 25px;
+    border: 2px solid green;
+    color: green;
+}
+
+input[type=button], input[type=reset], input[type=submit] {
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+select {
+    text-align: center;
+    width: 40%;
+    padding: 18px 22px;
+    margin-left: 25%;
+    margin-top: 2%;
+    background-color: mintcream;
+    border-radius: 25px;
+    border: 2px solid green;
+    color: green;
+
+}
+
+.boton1{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: navy;
+    border-radius: 6px;
+}
+.boton1:hover{
+    color: black;
+    background-color: white;
+}
+
+.boton2{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: coral;
+    border-radius: 6px;
+}
+.boton2:hover{
+    color: black;
+    background-color: white;
+}
+
+.boton3{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: hotpink;
+    border-radius: 6px;
+}
+.boton3:hover{
+    color: black;
+    background-color: white;
+}
+.boton4{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+}
+.boton4:hover{
+    color: black;
+    background-color: white;
+}
+
+.boton5{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: purple;
+    border-radius: 6px;
+}
+.boton5:hover{
+    color: black;
+    background-color: white;
+}
+
+.boton6{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: pink;
+    border-radius: 6px;
+}
+.boton6:hover{
+    color: black;
+    background-color: white;
+}
+
+.boton7{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: navy;
+    border-radius: 6px;
+}
+.boton7:hover{
+    color: black;
+    background-color: white;
+}
+
+.boton8{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: aqua;
+    border-radius: 6px;
+}
+.boton8:hover{
+    color: black;
+    background-color: white;
+}
+
+.boton9{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: deeppink;
+    border-radius: 6px;
+}
+.boton9:hover{
+    color: black;
+    background-color: white;
+}
+
+.botones{
+    width: 33%;
+}
+
+.tabla{
+    border-radius: 25px;
+    background-color: lightyellow;
+    padding:10px;
+    width: 97%;
+    height: 95%;
+    text-align: center;
+
+}
+
+
+
+.tabla2{
+
+    text-align: center;
+    width: 89%;
+    height: 85%;
+}
+.txt1{
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 60px;
+    color: olive;
+    font-size: 25px;
+    text-align: left;
+    font-family: Verdana, Arial, sans-serif;
+}
+.txt2{
+    margin-top: 5%;
+    color: olive;
+    font-size: 20px;
+    text-align: left;
+    font-family: Verdana, Arial, sans-serif;
+}
+.txt3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: Verdana, Arial, sans-serif;
+}
+.txt4{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.txt5{
+    font-size: 15px;
+    text-align: center;
+}
+
+.txt6{
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.txtg{
+    font-size: 25px;
+}
+
+.txte{
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.botonI{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00BFFF;
+    border-radius: 6px;
+}
+.botoni:hover{
+    color: black;
+    background-color: #E0FFFF;
+}
+.botonG{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #00BFFF;
+    border-radius: 6px;
+}
+.botonG:hover{
+    color: black;
+    background-color: #E0FFFF;
+}
+.txt3{
+    font-weight: 550;
+    font-size: 30px;
+}
+#cuerpo2{
+    border: #7A4C1B 15px solid;
+    background-color: white;
+    padding: 5px;
+}
+
+#txt{
+    background-color: white;
+    font-weight: 550;
+    font-size: 30px;
+}
+
+#contenedor{
+    padding: 5px;
+}
+
+#bloque1{
+    display: inline;
+    background-color: #FDD57A;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 5px;
+
+}
+
+#bloque2{
+    display: inline;
+    background-color: #FDD57A;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 5px;
+
+}
+
+#bloque3{
+    display: inline;
+    background-color: #FDD57A;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 5px;
+}
+
+#bloque4{
+    display: inline;
+    background-color: #FDD57A;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 5px;
+}
+
+#bloque5{
+    display: inline;
+    background-color: #FDD57A;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 5px;
+}
+
+.chart-wrap {
+    --chart-width:420px;
+    --grid-color:#aaa;
+    --bar-color:#00FFF7;
+    --bar-thickness:40px;
+    --bar-rounded: 3px;
+    --bar-spacing:10px;
+
+    font-family:sans-serif;
+    width:var(--chart-width);
+}
+
+.chart-wrap .title{
+    font-weight:bold;
+    padding:1.8em 0;
+    text-align:center;
+    white-space:nowrap;
+}
+
+/* cuando definimos el gráfico en horizontal, lo giramos 90 grados */
+/*.chart-wrap.horizontal .grid{
+    transform:rotate(-90deg);
+}*/
+
+/*.chart-wrap.horizontal .bar::after{
+
+    transform: rotate(45deg);
+    padding-top:0px;
+    display: block;
+}*/
+
+.chart-wrap .grid{
+    margin-left:50px;
+    position:relative;
+    padding:5px 0 5px 0;
+    height:100%;
+    width:100%;
+    border-left:2px solid var(--grid-color);
+}
+
+/* posicionamos el % del gráfico*/
+
+/*.chart-wrap .grid::before{
+    font-size:0.8em;
+    font-weight:bold;
+    content:'0%';
+    position:absolute;
+    left:-0.5em;
+    top:-1.5em;
+}*/
+
+/*.chart-wrap .grid::after{
+    font-size:0.8em;
+    font-weight:bold;
+    content:'100%';
+    position:absolute;
+    right:-1.5em;
+    top:-1.5em;
+}*/
+
+/* giramos las valores de 0% y 100% para horizontal */
+.chart-wrap.horizontal .grid::before, .chart-wrap.horizontal .grid::after {
+    transform: rotate(90deg);
+}
+
+.chart-wrap .bar {
+    width: var(--bar-value);
+    height:var(--bar-thickness);
+    margin:var(--bar-spacing) 0;
+    background-color:var(--bar-color);
+    border-radius:0 var(--bar-rounded) var(--bar-rounded) 0;
+}
+
+.chart-wrap .bar:hover{
+    opacity:0.7;
+}
+
+.chart-wrap .bar::after{
+    content:attr(data-name);
+    margin-left:100%;
+    padding:10px;
+    display:inline-block;
+    white-space:nowrap;
+}
